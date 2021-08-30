@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 
 @Component({
   selector: 'app-tab1',
@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
 export class Tab1Page {
 
   constructor() {}
-
+  ngOnInit(){
+    let numero = 20;
+    debugger; 
+    numero =0;
+    console.log(numero)
+  }
 }
