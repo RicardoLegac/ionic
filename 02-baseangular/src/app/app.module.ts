@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { MenuComponent } from './components/menu/menu.component';
 import { PagesModule } from './pages/pages.module';
 import { HttpClientModule } from '@angular/common/http'; //para hacer peticiones http
+//httpclientmodule todo lo necesario para hacer peticiones http
 @NgModule({
   declarations: [
     AppComponent,
