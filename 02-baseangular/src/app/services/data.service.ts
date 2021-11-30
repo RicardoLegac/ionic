@@ -2,13 +2,13 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root' //los servicios funcionan de manera global en toda la aplicacion
+  providedIn: 'root' //los servicios funcionan de manera global en toda la aplicacion, eso significa root 
 })
 export class DataService {
 
   constructor(private http: HttpClient) { }
 
-  getPosts(){
+  getPosts(){  
     return this.http.get('https://jsonplaceholder.typicode.com/posts');
   }
 }
